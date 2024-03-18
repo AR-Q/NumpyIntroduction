@@ -11,3 +11,9 @@ two_d_array = np.array([
 ])
 
 print(two_d_array[2][3])
+
+
+
+sub_matrix = two_d_array[np.ix_([0,1],[0,1])]
+
+print(c)
