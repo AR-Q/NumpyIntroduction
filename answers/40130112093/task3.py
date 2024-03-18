@@ -19,3 +19,14 @@ print(sum)
 print(sub)
 print(mul)
 print(div)
+
+
+three_d_array = np.ones((2,3,4))
+
+two_d = np.reshape(three_d_array, (6,4))
+
+flaten = two_d.flatten()
+
+print(two_d)
+
+print(flaten)
