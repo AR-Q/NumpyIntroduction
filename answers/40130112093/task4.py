@@ -21,3 +21,10 @@ print(det)
 a_inverse = np.linalg.inv(a)
 
 print(a_inverse)
+
+
+eigval, eigvec = np.linalg.eig(a)
+
+print(eigval)
+
+print(eigvec)
