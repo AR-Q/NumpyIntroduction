@@ -6,6 +6,12 @@ a = np.array([
     [7,8,9,10]
 ])
 
+b = np.array([
+    [4,7,3,7],
+    [3,5,7,7],
+    [11,8,2,1]
+])
+
 
 mean = np.mean(a)
 
@@ -25,3 +31,9 @@ print(variance)
 std = np.std(a)
 
 print(std)
+
+
+
+correlation = np.corrcoef(a,b)
+
+print(correlation)
