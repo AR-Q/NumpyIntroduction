@@ -16,4 +16,11 @@ print(two_d_array[2][3])
 
 sub_matrix = two_d_array[np.ix_([0,1],[0,1])]
 
-print(c)
+print(sub_matrix)
+
+
+three_d_array = np.ones((2,3,4))
+
+
+for i in three_d_array:
+    print(i)
