@@ -21,6 +21,20 @@ print(mul)
 print(div)
 
 
+twod = np.array([
+    [1,2,3,4],
+    [3,4,5,6],
+    [4,5,6,7],
+    [6,7,8,9]
+])
+
+oned = np.array([1,2,3,4])
+
+res = np.column_stack((twod,oned))
+
+print(res)
+
+
 three_d_array = np.ones((2,3,4))
 
 two_d = np.reshape(three_d_array, (6,4))
